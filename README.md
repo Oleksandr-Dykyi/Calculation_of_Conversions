@@ -1,4 +1,4 @@
-## Calculation_of_Conversions
+## Conversion_Analytics
 
 #### Technology Stack:
 BigQuery (CTE, data aggregation, function, joins)
