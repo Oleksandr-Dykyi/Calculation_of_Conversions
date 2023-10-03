@@ -8,13 +8,13 @@ In this project, I utilized BigQuery to analyze conversion data from a publicly 
 
 I began by crafting a query to generate a comprehensive table containing information about conversions, tracking the entire user journey from session initiation to purchase. The resulting table encompasses the following key fields:
 1. event_date: The session's start date derived from the event_timestamp field.
-source: The source of the site visit.
-medium: The medium of the site visit.
-campaign: The name of the site visit campaign.
-user_sessions_count: The count of unique sessions for distinct users on each corresponding date and for the respective traffic channel.
-visit_to_cart: Conversion from session initiation on the site to adding a product to the cart (on the relevant date and for the corresponding traffic channel).
-visit_to_checkout: Conversion from session initiation on the site to attempting to complete an order (on the relevant date and for the corresponding traffic channel).
-visit_to_purchase: Conversion from session initiation on the site to making a purchase (on the relevant date and for the corresponding traffic channel).
+2. source: The source of the site visit.
+3. medium: The medium of the site visit.
+4. campaign: The name of the site visit campaign.
+5. user_sessions_count: The count of unique sessions for distinct users on each corresponding date and for the respective traffic channel.
+6. visit_to_cart: Conversion from session initiation on the site to adding a product to the cart (on the relevant date and for the corresponding traffic channel).
+7. visit_to_checkout: Conversion from session initiation on the site to attempting to complete an order (on the relevant date and for the corresponding traffic channel).
+8. visit_to_purchase: Conversion from session initiation on the site to making a purchase (on the relevant date and for the corresponding traffic channel).
 
 Notably, I ensured accuracy in counting unique sessions by considering both session IDs and user IDs, accounting for potential duplicate session IDs among different users.
 
