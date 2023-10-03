@@ -7,7 +7,7 @@ BigQuery (CTE, data aggregation, function, joins)
 In this project, I utilized BigQuery to analyze conversion data from a publicly available Google Analytics 4 dataset, specifically data from the Google online store.
 
 I began by crafting a query to generate a comprehensive table containing information about conversions, tracking the entire user journey from session initiation to purchase. The resulting table encompasses the following key fields:
-event_date: The session's start date derived from the event_timestamp field.
+1. event_date: The session's start date derived from the event_timestamp field.
 source: The source of the site visit.
 medium: The medium of the site visit.
 campaign: The name of the site visit campaign.
